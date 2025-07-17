@@ -1,19 +1,13 @@
-# Node
-node_modules/
+# Node modules
+client/node_modules/
+server/node_modules/
 
-# Environment
-.env
-.env.local
-.env.*.local
-
-# Build output
-build/
-dist/
+# Environment variables
+server/.env
 
 # Logs
-npm-debug.log*
-yarn-debug.log*
+*.log
 
-# System
+# System files
 .DS_Store
 Thumbs.db
